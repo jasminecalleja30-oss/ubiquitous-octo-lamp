@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal" id="roleModal">
+        <div class="modal-content">
+          <h2>Signing up for:</h2>
+          <button id="ownerBtn">👔 establishment</button>
+          <button id="workerBtn">🛠️ applicant</button>
+        </div>
+      </div>
+      <script>
+        document.getElementById("ownerBtn").addEventListener("click", () => {
+          window.location.href = "owner.html";
+        });
+      
+        document.getElementById("workerBtn").addEventListener("click", () => {
+          window.location.href = "employee.html";
+        });
+      </script>
+      
+</body>
+</html>
